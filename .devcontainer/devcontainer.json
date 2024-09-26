@@ -1,0 +1,18 @@
+{
+    // rebuild the image using local Dockerfile
+    "build": {"dockerfile": "Dockerfile"},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.hexeditor",
+                "ms-vscode.cpptools",
+                "twxs.cmake"
+            ],
+            "settings": {
+                // always default to bash not sh
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+        
+    }
+}
